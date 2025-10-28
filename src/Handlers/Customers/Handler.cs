@@ -4,7 +4,6 @@ namespace BugStore.Handlers.Customers;
 
 public class Handler
 {
-    // Simulação de um banco de dados estático
     private static readonly List<Customer> _customers = new List<Customer>
     {
         new Customer
@@ -85,4 +84,5 @@ public class Handler
             Success = deleted
         };
     }
+
 }
